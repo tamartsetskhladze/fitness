@@ -6,35 +6,27 @@
     margin-top: 20px;
     margin-left: 100px;
     align-items: center;
-    flex-wrap: wrap;
+    justify-content: space-between;
 }
 .nav-list {
     display: flex;
-    justify-content: space-evenly;
     max-width: 500px;
     width: 100%;
-    margin-left: 334px;
+    margin-left: 300px;
     color: black;
     flex-wrap: wrap;
 }
 
-.call {
-    width: 20px;
-    margin-right: 10px;
-}
+
 
 .list {
     color: black;
+    margin-right: 30px;
 }
 .list:hover {
     color: #5EB6E1;
 }
 
-.number {
-    display: flex;
-    align-items: center;
-    color: black;
-}
 
 .header-image {
     background-image: url(../images/girl-resting-after-exercises-gym_152625-820_auto_x2_auto_x2.jpg);
@@ -53,6 +45,7 @@
     left: 100px;
     top: 20px;
     max-width: 800px;
+    width: 100%;
     
 }
 
@@ -82,3 +75,208 @@
     color: black;
     ;
 }
+
+/* section2 */
+.section2 {
+    margin-top: 250px;
+    display: flex;
+
+}
+
+.first-div {
+    position: relative;
+    width: 476px;
+    height: 283px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.text-div {
+    position: absolute;
+    top: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text-div :nth-child(1) {
+    color: white;
+    font-size: 30px;
+    margin-top: 99px;
+    
+}
+
+.text-div :nth-child(2) {
+    color: white;
+    font-size: 18px;
+    margin-top: 10px;
+    
+}
+
+.price-box1 {
+    width: 120px;
+    height: 30px;
+    background-color: #FF6C2C;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    
+    color: white;
+}
+.price-box2 {
+    width: 120px;
+    height: 30px;
+    background-color: #945B9F;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    
+    color: white;
+}
+.price-box3 {
+    width: 120px;
+    height: 30px;
+    background-color: #5EB6E1;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    
+    color: white;
+}
+
+
+
+
+.price-box:hover { ეს უნდა გავაკეთო რუთით
+    
+    border-color: white;
+    border-width: 3px;
+    border-style: solid;
+
+}
+.second-div {
+    position: relative;
+    width: 476px;
+    height: 283px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.third-div {
+    position: relative;
+    width: 476px;
+    height: 283px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.image-div {
+    width: 420px;
+}
+
+
+
+.form-div {
+    display: flex;
+    justify-content: space-between;
+    background-color: #181A1F;
+    width: auto;
+    height: 687px;
+    margin-top: 50px;
+}
+.image-bodybuilder {
+    width: 600px;
+    
+    
+}
+.left-div {
+    max-width: 700px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+
+}
+.contact {
+    color: white;
+    font-size: 50px;
+    margin-bottom: 20px;
+    margin-left: -25%
+}
+
+.form-email {
+    width: 400px;
+    height: 40px;
+    color: gray;
+    border: none;
+    border-color: #5EB6E1;
+    border-width: 3px;
+    border-style: solid;
+    background-color: #181A1F;
+    font-style: italic;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.form-email:focus {
+    outline: none;
+    
+}
+
+.form-element {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.textarea {
+    width: 400px;
+    height: 300px;
+    border: none;
+    border-color: #5EB6E1;
+    border-width: 3px;
+    border-style: solid;
+    background-color: #181A1F;
+    font-style: italic;
+    color: gray;
+    
+
+}
+
+.textarea:focus {
+    outline: none;
+}
+
+.drop-down {
+    border: none;
+    border-color: #5EB6E1;
+    border-width: 3px;
+    border-style: solid;
+    background-color: #181A1F;
+    font-style: italic;
+    color: gray;
+
+}
+
+.drop-down:focus {
+    outline: none;
+}
+
+.sumbit {
+    width: 400px;
+    height: 50px;
+    background-color: #5EB6E1;
+    position: absolute;
+    margin-top: 20px;
+}   
+
+

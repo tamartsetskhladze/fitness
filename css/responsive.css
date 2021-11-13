@@ -7,3 +7,37 @@
         margin-left: 10px;
     }
 }
+
+@media (max-width: 880px) {
+    .nav-list {
+        display: none;
+    }
+    .number {
+        display: none;
+    }
+}
+
+
+@media (max-width: 1024px) {
+    .section2 {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .second-div {
+        padding-top: 20px;
+        padding-bottom: 20px;
+       
+    }
+    .form-div {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+    .image-bodybuilder {
+        margin-top: 100px;
+    }
+    
+}
+
+@media (max-width: 262px)
