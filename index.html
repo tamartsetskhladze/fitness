@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fitness</title>
+    <script src="https://kit.fontawesome.com/6de6aa5275.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
@@ -13,7 +14,7 @@
     <header>
         <nav> 
             <div class="nav-div"> 
-                <a href="#"> <img src="images/bestrong.svg" alt="bestrong"> </a>
+                <a class="nav-image" href="#"> <img src="images/bestrong.svg" alt="bestrong"> </a>
                 <ul class="nav-list">
                     <li> <a class="list" href="#"> Home </a></li>
                     <li> <a class="list" href="#"> About Us </a></li>
@@ -21,20 +22,20 @@
                     <li> <a class="list" href="#"> News </a></li>
                     <li> <a class="list" href="#"> Contact </a></li>
                 </ul>
-                
+                <div class="burger-bar">
+                    <i class="fas fa-bars"></i> 
+                </div>
             </div>
         </nav>
         <div class="header-image" >
 
         </div>
         
-
-      
     </header>
 <section class="background-image" >
     
-        <div class="background-text">
-            <h4 class="title1" > Practice Hard, Play Strong, Pain Is Glory. ( Only For Women )</h4>
+        <div>
+            <h4 class="title1" > Practice Hard, Play Strong, Pain Is Glory. (Only For Women )</h4>
             <h2 class="title2" > Solutions For Moving Better And Feeling Althier. </h2>
             <div class="bottom-div"> <a class="bottom-text  " href="#"> Get Started </a> </div>
         </div>
@@ -54,7 +55,7 @@
         <div class="second-div"> 
             <img class="image-div" src="images/standard.png" alt="classic">
             <div class="text-div"> 
-            <h2> Body Building With Classic </h2>
+            <h2> Body Building With Standard </h2>
             <h5> Trained Achieve Your Goals </h5>
              <a class="price-box2" href="#">  $120*/M </a>
             </div>
@@ -62,7 +63,7 @@
         <div class="third-div"> 
             <img class="image-div" src="images/premium.png" alt="classic">
             <div class="text-div"> 
-            <h2> Body Building With Classic </h2>
+            <h2> Body Building With Premium </h2>
             <h5> Trained Achieve Your Goals </h5>
              <a class="price-box3" href="#">  $200*/M </a>
             </div>
@@ -89,11 +90,11 @@
 
                 <div> 
                     <label class="input" for="subject"></label>
-                    <input class="form-email" type="email" name="email" id="email" placeholder="Email">
+                    <input class="form-email" type="email" name="email" id="subject" placeholder="Email">
                 </div>
-                <div class="text-element">
-                    <label class="" for="your message"></label>
-                    <textarea class="textarea" name="" id="" cols="30" rows="10">Write your Message Here</textarea>
+                <div  class="text-element">
+                    <label for="message"> </label>
+                    <textarea class="textarea" name="message-text" id="message" cols="30" rows="10">Write your Message Here</textarea>
                 </div>
                 
                     <button class="sumbit" type="submit"> Submit </button>
