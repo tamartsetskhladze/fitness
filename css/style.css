@@ -6,7 +6,7 @@
 /* navigation */
 .nav-div {
     display: flex;
-    max-width: 1300px;
+  
     width: 100%;
     margin-top: 20px;
     align-items: center;
@@ -43,25 +43,12 @@
 
 .header-image {
     background-image: url(../images/girl-resting-after-exercises-gym_152625-820_auto_x2_auto_x2.jpg);
-    max-width: 1400px;
     width: 100%;
     height: 600px;
     background-size: cover;
     background-repeat: no-repeat;
     margin-top: 10px;
     position: absolute;
-    
-}
-
-.background-text {
-    position: relative;
-    left: 80px;
-    top: 20px;
-    max-width: 610px;
-    width: 100%;
-    margin: o auto;
- 
-    
 }
 
 .title1 {
@@ -295,7 +282,6 @@
     display: flex;
     justify-content: space-between;
     background-color: #181A1F;
-    max-width: 1400px;
     width: 100%;
     height: 687px;
 }
@@ -311,19 +297,19 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 50px;
+    
 
 }
 .contact {
     color: white;
     font-size: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     margin-left: -25%
 }
 
 .form-email {
     width: 400px;
-    height: 40px;
+    height: 50px;
     color: gray;
     border: none;
     border-color: #5EB6E1;
@@ -331,8 +317,8 @@
     border-style: solid;
     background-color: #181A1F;
     font-style: italic;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 .form-email:focus {
     outline: none;
@@ -347,7 +333,7 @@
 
 .textarea {
     width: 400px;
-    height: 300px;
+    height: 350px;
     border: none;
     border-color: #5EB6E1;
     border-width: 3px;
