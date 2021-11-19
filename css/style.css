@@ -1,14 +1,15 @@
 .body {
     background-color: #d8effa;
-   
-  
 }
+:root {
+    --marginmain: 20px
+}
+
 /* navigation */
 .nav-div {
     display: flex;
-  
     width: 100%;
-    margin-top: 20px;
+    margin-top: var(--marginmain);
     align-items: center;
     justify-content: space-between;
 }
@@ -82,7 +83,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: var(--marginmain);
     position: relative;
     margin-left: 100px;
 }
@@ -112,7 +113,7 @@
 
 .text-div {
     position: absolute;
-    top: 20px;
+    top: var(--marginmain);
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -136,7 +137,7 @@
     width: 120px;
     height: 30px;
     background-color: #FF6C2C;
-    border-radius: 20px;
+    border-radius: var(--marginmain);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -147,7 +148,7 @@
     width: 120px;
     height: 30px;
     background-color: #945B9F;
-    border-radius: 20px;
+    border-radius: var(--marginmain);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -158,7 +159,7 @@
     width: 120px;
     height: 30px;
     background-color: #5EB6E1;
-    border-radius: 20px;
+    border-radius: var(--marginmain);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -166,15 +167,20 @@
     color: white;
 }
 
-
-
-
-.price-box:hover { ეს უნდა გავაკეთო რუთით
-    
+.price-box1:hover {
     border-color: white;
     border-width: 3px;
     border-style: solid;
-
+}
+.price-box2:hover {
+    border-color: white;
+    border-width: 3px;
+    border-style: solid;
+}
+.price-box3:hover {
+    border-color: white;
+    border-width: 3px;
+    border-style: solid;
 }
 .second-div {
     position: relative;
@@ -265,8 +271,8 @@
     margin-bottom: 30px;
 }
 .name {
-    margin-top: 20px;
-    font-size: 20px;
+    margin-top: var(--marginmain);
+    font-size: var(--marginmain);
     color: white;
     height: 100px;
 }
@@ -369,7 +375,107 @@
     height: 50px;
     background-color: #5EB6E1;
     position: absolute;
-    margin-top: 20px;
+    margin-top: var(--marginmain);
 }   
 
+/* footer */
+.footer {
+    background-color: #181A1F;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    vertical-align: center;
+    align-items: center;
+    height: auto;
+    flex-wrap: wrap;
+    
+}
+.footer-image {
+    margin-top: 50px;
+}
+.text-footer {
+    width: 290px;
+    margin-top: 50px;
+}
 
+.social {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100px;
+    width: 100%;
+    margin-top: 10px;
+    
+}
+
+.social :nth-child(1) {
+    background-color: #5EB6E1;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social :nth-child(2) {
+    background-color: #5EB6E1;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social :nth-child(3) {
+    background-color: #5EB6E1;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-head {
+    color: white;
+    font-size: 18px;
+}
+
+.fab {
+    color: white;
+}
+.address {
+    color: white;
+    width: 200px;
+    margin-top: 10px;
+}
+
+.number {
+    color: white;
+    margin-top: 10px;
+}
+
+.mail {
+    color: white;
+    margin-top: 10px;
+}
+
+.map {
+    margin-top: 50px;
+    margin-bottom: var(--marginmain);
+  
+}
+
+.nav-div2 {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: #5EB6E1;
+    height: 30px;
+}
+.nav-list2 {
+    display: flex;  
+    color: black;
+}
+
+.list2 {
+    color: black;
+    margin-right: 40px;
+}

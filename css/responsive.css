@@ -70,3 +70,14 @@
     }
 
 }
+
+@media (max-width: 490px) {
+    .map {
+        width: 310px;
+    }
+    .list2 {
+        margin-right: 15px;
+        font-size: 12px;
+    }
+
+}
