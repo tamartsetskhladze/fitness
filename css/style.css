@@ -1,15 +1,17 @@
 .body {
-    background-color: #d8effa;
+    background-color: #d8effa; 
+    
 }
 :root {
-    --marginmain: 20px
+    --marginmain: 20px;
+    --maincolor: #181A1F;
 }
 
 /* navigation */
 .nav-div {
     display: flex;
     width: 100%;
-    margin-top: var(--marginmain);
+    margin-top: 10px;
     align-items: center;
     justify-content: space-between;
 }
@@ -23,13 +25,13 @@
 .nav-list {
     display: flex;  
     color: black;
- 
 }
 
 
 .list {
     color: black;
     margin-right: 40px;
+    font-family: 'Roboto';
 }
 .list:hover {
     color: #5EB6E1;
@@ -48,7 +50,7 @@
     height: 600px;
     background-size: cover;
     background-repeat: no-repeat;
-    margin-top: 10px;
+    margin-top: 5px;
     position: absolute;
 }
 
@@ -60,7 +62,8 @@
     max-width: 610px;
     width: 100%;
     padding-left: 100px;
-  
+    font-family: 'Lora';
+    
 }
 
 .title2 {
@@ -71,9 +74,7 @@
     margin-top: 10px;
     position: relative;
     padding-left: 100px;
-    
-   
-    
+    font-family: 'Lora';
 }
 
 .bottom-div {
@@ -90,6 +91,7 @@
 
 .bottom-text {
     color: black;
+    font-family: 'Lora';
    
 }
 
@@ -106,31 +108,32 @@
     position: relative;
     max-width: 420px;
     width: 100%;
-    height: 283px;
+    height: 270px;
     display: flex;
     justify-content: center;
 }
+
 
 .text-div {
     position: absolute;
     top: var(--marginmain);
     display: flex;
     align-items: center;
-    flex-direction: column;
+    flex-direction: column;  
 }
 
 .text-div :nth-child(1) {
     color: white;
-    font-size: 30px;
+    font-size: 25px;
     margin-top: 99px;
-    
+    font-family: 'Roboto';    
 }
 
-.text-div :nth-child(2) {
+.text-div :nth-child(2) {   
     color: white;
     font-size: 18px;
     margin-top: 10px;
-    
+    font-family: 'Roboto';
 }
 
 .price-box1 {
@@ -143,6 +146,7 @@
     align-items: center;
     margin-top: 25px;
     color: white;
+    font-family: 'Roboto';
 }
 .price-box2 {
     width: 120px;
@@ -186,7 +190,7 @@
     position: relative;
     max-width: 420px;
     width: 100%;
-    height: 283px;
+    height: 270px;
     display: flex;
     justify-content: center;
 }
@@ -195,7 +199,7 @@
     position: relative;
     max-width: 420px;
     width: 100%;
-    height: 283px;
+    height: 270px;
     display: flex;
     justify-content: center;
 }
@@ -207,7 +211,7 @@
 
 /*  section 3 */
 .section3 {
-    background-color: #181A1F;  
+    background-color: var(--maincolor);  
     margin-top: 80px;
 }
 .trainer-div {
@@ -262,6 +266,7 @@
     display: flex;
     justify-content: center;
     text-align: center;
+    font-family: 'Lora';
 }
 
 .trainer {
@@ -269,12 +274,14 @@
     color: white;
     margin-top: 40px;
     margin-bottom: 30px;
+    font-family: 'Lora';
 }
 .name {
     margin-top: var(--marginmain);
     font-size: var(--marginmain);
     color: white;
     height: 100px;
+    font-family: 'Lora';
 }
 
 
@@ -286,8 +293,8 @@
 /* form-div */
 .form-div {
     display: flex;
-    justify-content: space-between;
-    background-color: #181A1F;
+    justify-content: space-evenly;
+    background-color: var(--maincolor);
     width: 100%;
     height: 687px;
 }
@@ -310,21 +317,23 @@
     color: white;
     font-size: 50px;
     margin-bottom: 30px;
-    margin-left: -25%
+    margin-left: -25%;
+    font-family: 'Lora';
 }
 
 .form-email {
-    width: 400px;
+    width: 500px;
     height: 50px;
     color: gray;
     border: none;
     border-color: #5EB6E1;
     border-width: 3px;
     border-style: solid;
-    background-color: #181A1F;
+    background-color: var(--maincolor);
     font-style: italic;
     margin-top: 30px;
     margin-bottom: 30px;
+    font-family: 'Lora';
 }
 .form-email:focus {
     outline: none;
@@ -338,17 +347,16 @@
 }
 
 .textarea {
-    width: 400px;
+    width: 500px;
     height: 350px;
     border: none;
     border-color: #5EB6E1;
     border-width: 3px;
     border-style: solid;
-    background-color: #181A1F;
+    background-color: var(--maincolor);
     font-style: italic;
     color: gray;
-    
-
+    font-family: 'Lora';
 }
 
 .textarea:focus {
@@ -360,9 +368,11 @@
     border-color: #5EB6E1;
     border-width: 3px;
     border-style: solid;
-    background-color: #181A1F;
+    background-color: var(--maincolor);
     font-style: italic;
     color: gray;
+    width: 150px;
+    font-family: 'Lora';
 
 }
 
@@ -371,16 +381,19 @@
 }
 
 .sumbit {
-    width: 400px;
+    max-width: 500px;
+    width: 100%;
     height: 50px;
     background-color: #5EB6E1;
     position: absolute;
     margin-top: var(--marginmain);
+    font-family: 'Roboto';
+   
 }   
 
 /* footer */
 .footer {
-    background-color: #181A1F;
+    background-color: var(--maincolor);
     width: 100%;
     display: flex;
     justify-content: space-evenly;
@@ -435,6 +448,7 @@
 .footer-head {
     color: white;
     font-size: 18px;
+    font-family: 'Lora';
 }
 
 .fab {
@@ -444,16 +458,19 @@
     color: white;
     width: 200px;
     margin-top: 10px;
+    font-family: 'Lora';
 }
 
 .number {
     color: white;
     margin-top: 10px;
+    font-family: 'Lora';
 }
 
 .mail {
     color: white;
     margin-top: 10px;
+    font-family: 'Lora';
 }
 
 .map {
@@ -478,4 +495,5 @@
 .list2 {
     color: black;
     margin-right: 40px;
+    font-family: 'Roboto';
 }

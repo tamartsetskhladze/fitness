@@ -5,7 +5,7 @@
     }
     .title2 {
         padding-left: 15px;
-        font-size: 60px;
+        
     }
     .bottom-div {
         margin-left: 15px;
@@ -53,27 +53,33 @@
     
 }
 
-@media (max-width: 420px) {
+@media (max-width: 550px) {
     .form-email {
-        width: 310px;
+        width: 280px;
     }
     .textarea {
-        width: 310px;
+        width: 280px;
     }
     .sumbit {
-        width: 310px;
+        width: 280px;
     }
     .paragraph {
         font-size: 18px;
         margin-right: 30px;
         margin-left: 30px;
     }
+    .left-div {
+
+    }
 
 }
 
 @media (max-width: 490px) {
+    .title2 {
+        font-size: 50px;
+    }
     .map {
-        width: 310px;
+        width: 300px;
     }
     .list2 {
         margin-right: 15px;
