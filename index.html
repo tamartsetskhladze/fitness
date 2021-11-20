@@ -12,10 +12,14 @@
     <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body class="body"> 
+
+
+
     <header>
-        <nav> 
+        
             <div class="nav-div"> 
                 <a class="nav-image" href="#"> <img src="images/bestrong.svg" alt="bestrong"> </a>
+            <nav class="navigation" id="navigationBlock"> 
                 <ul class="nav-list">
                     <li> <a class="list" href="#"> Home </a></li>
                     <li> <a class="list" href="#"> About Us </a></li>
@@ -23,11 +27,12 @@
                     <li> <a class="list" href="#"> News </a></li>
                     <li> <a class="list" href="#"> Contact </a></li>
                 </ul>
-                <div class="burger-bar">
+            </nav>
+                <div class="burger-bar" id="BurgerIcon">
                     <i class="fas fa-bars"></i> 
                 </div>
             </div>
-        </nav>
+        
         <div class="header-image" >
 
         </div>
@@ -121,8 +126,8 @@
                     <textarea class="textarea" name="message-text" id="message" cols="30" rows="10">Write your Message Here</textarea>
                 </div>
                 
-                    <button class="sumbit" type="submit"> Submit </button>
-                   
+                    <button id="send" class="submit" type="submit"> Submit </button>
+                              
             </form>
 
         </div>
@@ -144,9 +149,9 @@
             <h4 class="number"> +00 111 222 1234 </h4>
             <h4 class="mail"> Bestrong@gmail.com</h4>
             <div class="social">
-                <a href="http://facebook.com">  <i class="fab fa-facebook-f"></i> </a>
-                <a href="http://instagram.com">  <i class="fab fa-instagram"></i> </a>
-                <a href="http://twitter.com">  <i class="fab fa-twitter"></i> </a>
+                <a href="http://facebook.com" target="blank">  <i class="fab fa-facebook-f"></i> </a>
+                <a href="http://instagram.com" target="blank">  <i class="fab fa-instagram"></i> </a>
+                <a href="http://twitter.com" target="blank">  <i class="fab fa-twitter"></i> </a>
                 
             </div>
             
@@ -167,5 +172,6 @@
             </ul>
         </div>
     </nav>
+    <script src="script.js"></script>
 </body>
 </html>
