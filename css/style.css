@@ -128,7 +128,7 @@
 
 /* section2 */
 .section2 {
-    margin-top: 150px;
+    margin-top: 20px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -297,6 +297,7 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    margin-top: 100px;
 }
 .blue-circle {
     background-color: #5EB6E1;
@@ -386,6 +387,9 @@
 
 
 /* section 4 */
+.section4 {
+    background-color: var(--maincolor);
+}
 
 .container-child h4 {
     font-size: 20px;
