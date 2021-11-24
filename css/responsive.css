@@ -33,6 +33,8 @@
         
     }
     .nav-list {
+        max-width: 320px;
+        position: relative;
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
             -ms-flex-direction: column;
@@ -40,6 +42,7 @@
         -webkit-box-align: center;
             -ms-flex-align: center;
                 align-items: center;
+                
     }
     .navigation.active {
         display: block;
@@ -67,6 +70,24 @@
         .second-div {
             padding-top: 20px;
             }
+        
+
+}
+
+@media (max-width 700px) {
+    .container {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    
+    }
 
 }
 
