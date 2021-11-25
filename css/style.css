@@ -111,7 +111,7 @@
     margin-top: var(--marginmain);
     position: relative;
     margin-left: 100px;
-    border-radius: 20px;
+    border-radius: 15px;
 }
 .bottom-div:hover { 
     border-color: white;
@@ -129,6 +129,9 @@
 /* section2 */
 .section2 {
     margin-top: 20px;
+    max-width: 1500px;
+    margin: 0 auto;
+    width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -387,9 +390,6 @@
 
 
 /* section 4 */
-.section4 {
-    background-color: var(--maincolor);
-}
 
 .container-child h4 {
     font-size: 20px;
@@ -471,7 +471,7 @@
             justify-content: center;
     margin-top: var(--marginmain);
     margin-bottom: 20px;
-    border-radius: 30px;
+    border-radius: 15px;
 }
 
 
@@ -506,11 +506,6 @@
 .twitter {
    color: #00A2FF;
 }
-
-
-
-
-
 
 
 
